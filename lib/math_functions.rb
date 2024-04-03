@@ -3,6 +3,7 @@
 require_relative "math_functions/version"
 
 module MathFunctions
-  class Error < StandardError; end
-  # Your code goes here...
+  def self.add(a, b)
+    a + b
+  end
 end
